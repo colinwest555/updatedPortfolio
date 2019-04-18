@@ -26,6 +26,7 @@
 
 	body {
 		line-height: 1;
+	
 	}
 
 	ol, ul {
@@ -50,6 +51,9 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	#one {
+		background-color:#1E2832;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
@@ -85,6 +89,11 @@
 
 	.container {
 		width: 80em;
+	}
+	
+	.feature{
+		border-radius:25px;
+		box-shadow:0 0 4pt 3pt  #45ad97 ;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -3073,8 +3082,8 @@
 				.wrapper.style1 button.alt,
 				.wrapper.style1 .button.alt {
 					background-color: transparent;
-					box-shadow: inset 0 0 0 2px #51BAA4;
-					color: #51BAA4 !important;
+					box-shadow: inset 0 0 0 2px #1a2336;
+					color:#1a2336 !important;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -3625,7 +3634,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #1a2336;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -3953,7 +3962,8 @@
 			#banner input[type="button"].special,
 			#banner button.special,
 			#banner .button.special {
-				background-color: #51BAA4;
+				background-color: #1a2336;
+				opacity:.75 ;
 				box-shadow: none;
 				color: #fff !important;
 			}
